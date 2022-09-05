@@ -4,9 +4,9 @@
 
 <h1  align="center">InstabotJS</h1>
 
-<p  align="center">A tool built in JavaScript that <b>automates</b> Likes, Comments, and Follows on Instagram
-
-Implemented in NodeJS using the Selenium-Webdriver.<p>
+<p  align="center">A tool built in JavaScript that <b>automates</b> Likes, Comments, and Follows on Instagram <br />
+Implemented in NodeJS using the Selenium-Webdriver.
+<p>
 
 <p  align="center">
 <a  href="https://github.com/zanderp/instabot-js/blob/main/LICENSE">
