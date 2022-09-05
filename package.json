@@ -1,0 +1,26 @@
+{
+  "name": "instabot-js",
+  "version": "0.0.1",
+  "description": "Instagram NodeJs Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "instagram",
+    "bot",
+    "node",
+    "javascript"
+  ],
+  "author": "Alexandru Nicolae Popa",
+  "license": "MIT",
+  "dependencies": {
+    "bufferutil": "^4.0.1",
+    "dotenv": "^16.0.2",
+    "progress-bar-cli": "^1.0.4",
+    "selenium-webdriver": "^4.4.0",
+    "utf-8-validate": "^5.0.2",
+    "winston": "^3.8.1",
+    "winston-timestamp-colorize": "^1.1.0"
+  }
+}

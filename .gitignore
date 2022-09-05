@@ -1,0 +1,6 @@
+logs/*
+storage/cookies.json
+storage/followedProfiles.json
+node_modules/*
+package-lock.json
+.env

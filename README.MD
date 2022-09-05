@@ -1,0 +1,40 @@
+
+<p  align="center">
+<img  src="https://i.imgur.com/jBmrP4f.jpg"  width="154">
+
+<h1  align="center">InstabotJS</h1>
+
+<p  align="center">A tool built in JavaScript that <b>automates</b> Likes, Comments, and Follows on Instagram
+
+Implemented in NodeJS using the Selenium-Webdriver.<p>
+
+<p  align="center">
+<a  href="https://github.com/zanderp/instabot-js/blob/main/LICENSE">
+<img  src="https://img.shields.io/badge/license-GPLv3-blue.svg"  />
+</a>
+<a  href="https://github.com/SeleniumHQ/selenium">
+<img  src="https://img.shields.io/badge/built%20with-Selenium-yellow.svg"  />
+</a>
+<a  href="https://www.javascript.com/">
+<img  src="https://img.shields.io/badge/built%20with-JavaScript-red.svg"  />
+</p>
+</p>
+<br  />
+  
+
+# Find the full documentation in [Docs](/docs)
+
+**Table of contents**
+
+- [How to install and run InstabotJS](/docs/home.md#installation)
+
+* [Installing InstabotJS](/docs/home.md#installation)
+
+* [Running InstabotJS](/docs/home.md#installation)
+
+* [Updating InstabotJS](/docs/home.md#updating-instapy)
+
+* [Guides and tutorials](/docs/home.md#guides)
+<br  />
+
+>  **Disclaimer**<a  name="disclaimer"/>: Please note that this is a research project. I am by no means responsible for any usage of this tool. Use it on your behalf. I'm also not responsible if your accounts get banned due to the extensive use of this tool.
