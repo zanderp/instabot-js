@@ -1,6 +1,6 @@
 logs/*
-storage/cookies.json
-storage/followedProfiles.json
+storage/*
 node_modules/*
 package-lock.json
 .env
+geckodriver.exe
