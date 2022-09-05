@@ -11,7 +11,6 @@ if (headless) {
 
 let driver = new Builder()
     .forBrowser('firefox')
-    .setFirefoxOptions(executable_path = geckoDriverPath)
     .withCapabilities(options)
     .build();
 
