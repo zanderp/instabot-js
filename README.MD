@@ -37,4 +37,22 @@ Implemented in NodeJS using the Selenium-Webdriver.
 * [Guides and tutorials](/docs/home.md#guides)
 <br  />
 
+## Quick setup guide
+
+- clone the repository 
+- make sure you have installed node > 12.3.0, geckodriver, firefox
+- run `npm install`
+- copy .env.example to .env and fill in the configs
+- run index.js example or find more examples in examples directory
+
+## Features
+
+- Follow own posts likers
+- Like own post likers media
+- Follow from hashtag
+- Like from hashtag
+- Bulk unfollow non-followers
+
+<br />
+
 >  **Disclaimer**<a  name="disclaimer"/>: This is a research project only. I am not responsible for the usage of this tool, use it on your behalf. I am also not responsible if your instagram accounts get banned due to intensive use of this tool.
