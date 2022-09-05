@@ -32,7 +32,7 @@ Implemented in NodeJS using the Selenium-Webdriver.<p>
 
 * [Running InstabotJS](/docs/home.md#installation)
 
-* [Updating InstabotJS](/docs/home.md#updating-instapy)
+* [Updating InstabotJS](/docs/home.md#updating-inabotjs)
 
 * [Guides and tutorials](/docs/home.md#guides)
 <br  />
