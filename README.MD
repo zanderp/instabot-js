@@ -32,9 +32,9 @@ Implemented in NodeJS using the Selenium-Webdriver.<p>
 
 * [Running InstabotJS](/docs/home.md#installation)
 
-* [Updating InstabotJS](/docs/home.md#updating-instapy)
+* [Updating InstabotJS](/docs/home.md#updating-inabotjs)
 
 * [Guides and tutorials](/docs/home.md#guides)
 <br  />
 
->  **Disclaimer**<a  name="disclaimer"/>: Please note that this is a research project. I am by no means responsible for any usage of this tool. Use it on your behalf. I'm also not responsible if your accounts get banned due to the extensive use of this tool.
+>  **Disclaimer**<a  name="disclaimer"/>: This is a research project only. I am not responsible for the usage of this tool, use it on your behalf. I am also not responsible if your instagram accounts get banned due to intensive use of this tool.
