@@ -1,6 +1,6 @@
 const { cookiePath } = require('../../config/config');
 const logger = require('../logger/logger');
-const { getFileContent, saveContentToFile } = require('../file/file');
+const { getFileContent } = require('../file/file');
 const { promises: fs } = require("fs");
 var path = require('path');
 

@@ -1,4 +1,5 @@
 const logger = require('../logger/logger');
+const { randomInRange } = require('../util');
 
 /**
  * It opens a page, waits for 2 seconds, and then logs the page that was opened.
@@ -13,7 +14,7 @@ async function getPage(driver, page) {
         message: 'Page opened: ' + page,
     });
 
-    driver.sleep(2000);
+    driver.sleep(randomInRange(2000, 4000));
 }
 
 /**
@@ -29,7 +30,7 @@ async function navigateToPage(driver, page) {
         message: 'Navigated to page: ' + page,
     });
 
-    driver.sleep(4000);
+    driver.sleep(randomInRange(2000, 4000));
 }
 
 /**
@@ -44,7 +45,7 @@ async function reloadPage(driver) {
         message: 'Page reloaded successfully.',
     });
 
-    driver.sleep(4000);
+    driver.sleep(randomInRange(4000, 6000));
 }
 
 module.exports.getPage = getPage;

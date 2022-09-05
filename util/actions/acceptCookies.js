@@ -1,6 +1,7 @@
 const { By } = require('selenium-webdriver');
 const logger = require('../logger/logger');
 const selectors = require('../selectors');
+const { randomInRange } = require('../util');
 
 /**
  * It clicks the "Accept Cookies" button on the Instagram login page.
@@ -20,7 +21,7 @@ const selectors = require('../selectors');
             });
         }
     });
-    await driver.sleep(2000);
+    await driver.sleep(randomInRange(2000, 4000));
 }
 
 module.exports.acceptCookies = acceptCookies;

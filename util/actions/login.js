@@ -2,6 +2,7 @@ const { By, Key } = require('selenium-webdriver');
 const { sendKeysToElement } = require('../util');
 const logger = require('../logger/logger');
 const { userName, password } = require('../../config/config');
+const { randomInRange } = require('../util');
 
 /**
  * It finds the email input field, fills it with the username, waits 2 seconds, then fills the password
@@ -10,11 +11,11 @@ const { userName, password } = require('../../config/config');
 async function fillAndLogin(driver) {
     await driver.findElement(By.className('_2hvTZ pexuQ zyHYP')).then(async function (emailInput) {
         sendKeysToElement(emailInput, userName);
-        await driver.sleep(2000);
+        await driver.sleep(randomInRange(2000, 4000));
         sendKeysToElement(emailInput, Key.TAB + password);
-        await driver.sleep(2000);
+        await driver.sleep(randomInRange(2000, 4000));
         sendKeysToElement(emailInput, Key.ENTER);
-        await driver.sleep(2000);
+        await driver.sleep(randomInRange(2000, 4000));
         logger.log({
             level: 'info',
             message: 'Logged in successfully.',
@@ -26,7 +27,7 @@ async function fillAndLogin(driver) {
         });
     });
 
-    await driver.sleep(5000);
+    await driver.sleep(randomInRange(5000, 7000));
 }
 
 module.exports.fillAndLogin = fillAndLogin;
