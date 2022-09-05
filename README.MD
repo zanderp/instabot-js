@@ -1,6 +1,6 @@
 
 <p  align="center">
-<img  src="https://i.imgur.com/jBmrP4f.jpg"  width="154" style="background-color: white;">
+<img  src="https://i.imgur.com/jBmrP4f.jpg"  width="154">
 
 <h1  align="center">InstabotJS</h1>
 
