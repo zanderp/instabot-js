@@ -1,10 +1,15 @@
 #installation
 
 Make sure you have node installed > 12.3.0
+
 Run `npm install`
+
 Make sure you have installed geckodriver
+
 Make sure you have installed firefox browser
+
 - for windows make sure you download the executable and store it into the storage directory and edit the configurations in the .env file
+
 Make sure to copy .env.example to .env and fill in your instagram username and password and the path for the geckodriver if you are on windows OS
 
 To run the bot type in the console `node index.js`
