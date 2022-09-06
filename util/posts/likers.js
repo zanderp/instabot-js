@@ -25,8 +25,6 @@ async function getNotFollowingPostLikers(driver) {
     await driver.sleep(randomInRange(2000, 5000));
 
     await scrollDown(driver);
-    await scrollDown(driver);
-    await scrollDown(driver);
 
     driver.manage().setTimeouts({ implicit: 10000 });
     var xPath = '//div/div/div/div/div/div/div/div/div/section/main/div/div/div';
@@ -125,8 +123,6 @@ async function getNotFollowingPostLikers(driver) {
     var following = false;
     await driver.sleep(randomInRange(2000, 4000));
 
-    await scrollDown(driver);
-    await scrollDown(driver);
     await scrollDown(driver);
 
     driver.manage().setTimeouts({ implicit: 10000 });
