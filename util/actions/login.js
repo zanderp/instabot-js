@@ -3,13 +3,14 @@ const { sendKeysToElement } = require('../util');
 const logger = require('../logger/logger');
 const { userName, password } = require('../../config/config');
 const { randomInRange } = require('../util');
+const selectors = require('../selectors');
 
 /**
  * It finds the email input field, fills it with the username, waits 2 seconds, then fills the password
  * field, waits 2 seconds, then presses enter.
  */
 async function fillAndLogin(driver) {
-    await driver.findElement(By.className('_2hvTZ pexuQ zyHYP')).then(async function (emailInput) {
+    await driver.findElement(By.className(selectors.loginFormSelector)).then(async function (emailInput) {
         sendKeysToElement(emailInput, userName);
         await driver.sleep(randomInRange(2000, 4000));
         sendKeysToElement(emailInput, Key.TAB + password);
