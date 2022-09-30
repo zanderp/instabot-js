@@ -5,6 +5,8 @@ const logger = require('../logger/logger');
 
 /* Creating a new instance of the Firefox browser. */
 let options = new firefox.Options();
+options.setPreference('devtools.jsonview.enabled', false);
+
 if (headless) {
     options.addArguments('--headless');
 }
